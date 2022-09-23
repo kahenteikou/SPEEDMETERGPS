@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="332mm"
+   height="54mm"
+   viewBox="0 0 332 54.000015"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="meter_none.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2"
+     inkscape:cx="536.75"
+     inkscape:cy="173.75"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="ruler"
+       id="path-effect279"
+       is_visible="true"
+       lpeversion="1"
+       unit="mm"
+       mark_distance="6.66"
+       mark_length="27"
+       minor_mark_length="13.5"
+       major_mark_steps="2"
+       shift="0"
+       offset="0"
+       mark_dir="left"
+       border_marks="both" />
+    <inkscape:path-effect
+       effect="ruler"
+       id="path-effect279-0"
+       is_visible="true"
+       lpeversion="1"
+       unit="mm"
+       mark_distance="6.66"
+       mark_length="54"
+       minor_mark_length="13.5"
+       major_mark_steps="6"
+       shift="0"
+       offset="0"
+       mark_dir="left"
+       border_marks="both" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 286.4776,34.925 Z"
+       id="path220" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.572794px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 0.26384532,53.716925 H 331.72209 m -331.45824468,0 v -27 m 6.65999998,27 v -13.5 m 6.6599997,13.5 v -27 m 6.66,27 v -13.5 m 6.66,13.5 v -27 m 6.66,27 v -13.5 m 6.66,13.5 v -27 m 6.66,27 v -13.5 m 6.66,13.5 v -27 m 6.66,27 v -13.5 m 6.66,13.5 v -27 m 6.66,27 v -13.5 m 6.66,13.5 v -27 m 6.66,27 v -13.5 m 6.66,13.5 v -27 m 6.660005,27 v -13.5 m 6.66,13.5 v -27 m 6.66,27 v -13.5 m 6.66,13.5 v -27 m 6.66,27 v -13.5 m 6.66,13.5 v -27 m 6.66,27 v -13.5 m 6.66,13.5 v -27 m 6.66,27 v -13.5 m 6.66,13.5 v -27 m 6.66,27 v -13.5 m 6.66,13.5 v -27 m 6.66,27 v -13.5 m 6.66,13.5 v -27 m 6.66,27 v -13.5 m 6.66,13.5 v -27 m 6.66,27 v -13.5 m 6.66,13.5 v -27 m 6.66,27 v -13.5 m 6.66,13.5 v -27 m 6.66,27 v -13.5 m 6.66,13.5 v -27 m 6.66,27 v -13.5 m 6.66,13.5 v -27 m 6.66,27 v -13.5 m 6.66,13.5 v -27 m 6.66,27 v -13.5 m 6.66,13.5 v -27 m 6.66,27 v -13.5 m 6.66,13.5 v -27 m 6.66,27 v -13.5 m 6.66,13.5 v -27 m 6.66,27 v -13.5 m 6.66,13.5 v -27 m 6.66,27 v -13.5 m 5.11824,13.5 v -27"
+       id="path222"
+       inkscape:path-effect="#path-effect279"
+       inkscape:original-d="M 0.26384532,53.716925 H 331.72209"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.572794px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 0.26384571,53.722296 H 331.72208 m -331.45823429,0 v -54 m 6.65999999,54 v -13.5 m 6.6600003,13.5 v -13.5 m 6.66,13.5 v -13.5 m 6.66,13.5 v -13.5 m 6.66,13.5 v -13.5 m 6.66,13.5 v -54 m 6.66,54 v -13.5 m 6.66,13.5 v -13.5 m 6.66,13.5 v -13.5 m 6.66,13.5 v -13.5 m 6.66,13.5 v -13.5 m 6.66,13.5 v -54 m 6.66,54 v -13.5 m 6.66,13.5 v -13.5 m 6.660004,13.5 v -13.5 m 6.66,13.5 v -13.5 m 6.66,13.5 v -13.5 m 6.66,13.5 v -54 m 6.66,54 v -13.5 m 6.66,13.5 v -13.5 m 6.66,13.5 v -13.5 m 6.66,13.5 v -13.5 m 6.66,13.5 v -13.5 m 6.66,13.5 v -54 m 6.66,54 v -13.5 m 6.66,13.5 v -13.5 m 6.66,13.5 v -13.5 m 6.66,13.5 v -13.5 m 6.66,13.5 v -13.5 m 6.66,13.5 v -54 m 6.66,54 v -13.5 m 6.66,13.5 v -13.5 m 6.66,13.5 v -13.5 m 6.66,13.5 v -13.5 m 6.66,13.5 v -13.5 m 6.66,13.5 v -54 m 6.66,54 v -13.5 m 6.66,13.5 v -13.5 m 6.66,13.5 v -13.5 m 6.66,13.5 v -13.5 m 6.66,13.5 v -13.5 m 6.66,13.5 v -54 m 6.66,54 v -13.5 m 6.66,13.5 v -13.5 m 6.66,13.5 v -13.5 m 6.66,13.5 v -13.5 m 6.66,13.5 v -13.5 m 6.66,13.5 v -54 m 6.66,54 v -13.5 m 5.11823,13.5 v -54"
+       id="path222-6"
+       inkscape:path-effect="#path-effect279-0"
+       inkscape:original-d="M 0.26384571,53.722296 H 331.72208"
+       sodipodi:nodetypes="cc" />
+  </g>
+</svg>
