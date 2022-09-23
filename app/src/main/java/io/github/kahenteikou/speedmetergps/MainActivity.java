@@ -10,6 +10,7 @@ import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import java.util.List;
@@ -17,6 +18,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity implements LocationListener {
     private LocationManager locationManager;
     private TextView txView;
+    private ProgressBar barkun;
     private float speedkun=0.0f;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +26,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         setContentView(R.layout.activity_main);
         locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
         txView=(TextView) findViewById(R.id.SpeedTextView);
+        barkun=(ProgressBar) findViewById(R.id.progressBar);
     }
 
     @Override
@@ -51,6 +54,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
                 speedkun=0.0f;
         }
         txView.setText(String.valueOf(speedkun)+"km/h");
+        barkun.setProgress((int)(speedkun*100.0f));
     }
 
     @Override
