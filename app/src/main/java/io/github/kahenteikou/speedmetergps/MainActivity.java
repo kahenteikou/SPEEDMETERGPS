@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
             ActivityCompat.requestPermissions(this,new String[]{Manifest.permission.ACCESS_FINE_LOCATION},1);
             return;
         }
-        
+        locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER,0,0,this);
     }
 
     @Override
