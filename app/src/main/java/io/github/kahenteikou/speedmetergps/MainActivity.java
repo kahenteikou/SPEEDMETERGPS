@@ -24,6 +24,12 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     }
 
     @Override
+    protected void onPause() {
+        super.onPause();
+        locationManager.removeUpdates(this);
+    }
+
+    @Override
     public void onLocationChanged(@NonNull Location location) {
 
     }
