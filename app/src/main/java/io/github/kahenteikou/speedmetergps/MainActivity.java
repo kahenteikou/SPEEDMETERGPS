@@ -14,6 +14,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity implements LocationListener {
     private LocationManager locationManager;
     private TextView txView;
+    private float speedkun=0.0f;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
