@@ -46,14 +46,21 @@
       android:strokeColor="#ffffff"
       android:strokeLineCap="butt"/>
   <path
-      android:pathData="M190.64,27.43V0.07"
+      android:pathData="M210.75,27.43V0.07"
       android:strokeLineJoin="miter"
       android:strokeWidth="1.47934"
       android:fillColor="#00000000"
       android:strokeColor="#ffffff"
       android:strokeLineCap="butt"/>
   <path
-      android:pathData="M260.79,27.21V-0.14"
+      android:pathData="M240.81,27.34V-0.01"
+      android:strokeLineJoin="miter"
+      android:strokeWidth="1.47934"
+      android:fillColor="#00000000"
+      android:strokeColor="#ffffff"
+      android:strokeLineCap="butt"/>
+  <path
+      android:pathData="M320.94,27.3V-0.05"
       android:strokeLineJoin="miter"
       android:strokeWidth="1.47934"
       android:fillColor="#00000000"
