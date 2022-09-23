@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         }else{
                 speedkun=0.0f;
         }
-        txView.setText(String.format("%05.3f",speedkun)+"km/h");
+        txView.setText(String.format("%05.1f",speedkun)+"km/h");
         barkun.setProgress((int)(speedkun*100.0f));
     }
 
