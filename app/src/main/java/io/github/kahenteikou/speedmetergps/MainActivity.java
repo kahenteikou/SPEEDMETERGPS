@@ -45,7 +45,12 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
 
     @Override
     public void onLocationChanged(@NonNull Location location) {
-
+        if(location.hasSpeed()) {
+            speedkun = location.getSpeed() * 3.6f;
+        }else{
+                speedkun=0.0f;
+        }
+        txView.setText(String.valueOf(speedkun)+"km/h");
     }
 
     @Override
