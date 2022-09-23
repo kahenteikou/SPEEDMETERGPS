@@ -5,12 +5,15 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.location.Location;
 import android.location.LocationListener;
+import android.location.LocationManager;
 import android.os.Bundle;
+import android.widget.TextView;
 
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements LocationListener {
-
+    private LocationManager locationManager;
+    private TextView txView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
