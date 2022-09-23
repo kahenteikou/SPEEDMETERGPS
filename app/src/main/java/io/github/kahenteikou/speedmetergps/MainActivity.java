@@ -2,6 +2,7 @@ package io.github.kahenteikou.speedmetergps;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 
 import android.location.Location;
 import android.location.LocationListener;
@@ -27,6 +28,12 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     protected void onPause() {
         super.onPause();
         locationManager.removeUpdates(this);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if(ActivityCompat.checkSelfPermission())
     }
 
     @Override
