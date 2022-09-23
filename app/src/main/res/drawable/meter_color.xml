@@ -8,7 +8,7 @@
       android:strokeLineJoin="miter"
       android:strokeWidth="27"
       android:fillColor="#00000000"
-      android:strokeColor="#00e700"
+      android:strokeColor="#00bc36"
       android:strokeLineCap="butt"/>
   <path
       android:pathData="M286.48,34.92Z"
@@ -25,9 +25,30 @@
       android:strokeColor="#ffffff"
       android:strokeLineCap="butt"/>
   <path
+      android:pathData="M-0.53,0.6H330.93"
+      android:strokeLineJoin="miter"
+      android:strokeWidth="1.473"
+      android:fillColor="#ffffff"
+      android:strokeColor="#ffffff"
+      android:strokeLineCap="butt"/>
+  <path
       android:pathData="M30.32,27.12V0"
       android:strokeLineJoin="miter"
       android:strokeWidth="1.473"
+      android:fillColor="#00000000"
+      android:strokeColor="#ffffff"
+      android:strokeLineCap="butt"/>
+  <path
+      android:pathData="M0.26,27.32V0.2"
+      android:strokeLineJoin="miter"
+      android:strokeWidth="1.473"
+      android:fillColor="#00000000"
+      android:strokeColor="#ffffff"
+      android:strokeLineCap="butt"/>
+  <path
+      android:pathData="M331.34,27.15V0.03"
+      android:strokeLineJoin="miter"
+      android:strokeWidth="2.173"
       android:fillColor="#00000000"
       android:strokeColor="#ffffff"
       android:strokeLineCap="butt"/>

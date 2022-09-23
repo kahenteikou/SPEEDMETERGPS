@@ -25,8 +25,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1"
-     inkscape:cx="954"
-     inkscape:cy="173.5"
+     inkscape:cx="982.5"
+     inkscape:cy="201.5"
      inkscape:window-width="1920"
      inkscape:window-height="991"
      inkscape:window-x="-9"
@@ -63,13 +63,27 @@
        offset="0"
        mark_dir="left"
        border_marks="both" />
+    <inkscape:path-effect
+       effect="ruler"
+       id="path-effect279-3"
+       is_visible="true"
+       lpeversion="1"
+       unit="mm"
+       mark_distance="5.01"
+       mark_length="27"
+       minor_mark_length="13.5"
+       major_mark_steps="2"
+       shift="0"
+       offset="0"
+       mark_dir="left"
+       border_marks="both" />
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       style="fill:none;stroke:#00e700;stroke-width:27;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#00bc36;stroke-width:27;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        d="M 0.13229167,40.212713 H 332.02758"
        id="path5342" />
     <path
@@ -84,9 +98,22 @@
        inkscape:original-d="M 0.26384532,53.716925 H 331.72209"
        sodipodi:nodetypes="cc" />
     <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.473;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="M -0.52981792,0.59680944 H 330.92842"
+       id="path222-5"
+       sodipodi:nodetypes="cc" />
+    <path
        style="fill:none;stroke:#ffffff;stroke-width:1.473;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        d="M 30.32454,27.119791 V 0"
        id="path14249" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:1.473;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="M 0.26458332,27.318229 V 0.1984378"
+       id="path14249-5" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:2.173;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="M 331.33721,27.147189 V 0.02739866"
+       id="path14249-5-4" />
     <path
        style="fill:none;stroke:#ffffff;stroke-width:1.47934;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        d="M 70.402583,27.318229 V -0.03542306"
