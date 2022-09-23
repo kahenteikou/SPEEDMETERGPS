@@ -123,4 +123,14 @@
         app:layout_constraintBottom_toTopOf="@+id/progressBar"
         app:layout_constraintStart_toEndOf="@+id/textView9" />
 
+    <TextView
+        android:id="@+id/kmkun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="12dp"
+        android:text="km/h"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
