@@ -26,7 +26,7 @@
         android:layout_marginStart="4dp"
         android:layout_marginTop="4dp"
         android:fontFamily="@font/dseg14classic_regular"
-        android:text="ACCURACY:400M"
+        android:text="ACCURACY:NONE"
         android:textColor="#FF2323"
         android:textSize="34sp"
         app:layout_constraintStart_toStartOf="parent"
