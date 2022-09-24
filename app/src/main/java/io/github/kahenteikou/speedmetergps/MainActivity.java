@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         txView.setText(String.format("%5.1f",speedkun).replace(" ","!"));
         barkun.setProgress((int)(speedkun*100.0f));
         if(location.hasAccuracy()) {
-            AccView.setText(String.format("ACCURACY:%03dM", location.getAccuracy()));
+            AccView.setText(String.format("ACCURACY:%03dM", (int)location.getAccuracy()));
         }else{
             AccView.setText("ACCURACY:NONE");
         }
