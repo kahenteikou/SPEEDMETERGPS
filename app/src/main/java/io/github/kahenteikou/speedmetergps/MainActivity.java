@@ -29,6 +29,13 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
         txView=(TextView) findViewById(R.id.SpeedTextView);
         barkun=(ProgressBar) findViewById(R.id.progressBar);
+        gnssCallback = new GnssStatus.Callback() {
+            @Override
+            public void onSatelliteStatusChanged(GnssStatus status) {
+                super.onSatelliteStatusChanged(status);
+                int count = status.getSatelliteCount();
+            }
+        };
     }
 
     @Override
