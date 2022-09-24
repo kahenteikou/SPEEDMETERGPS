@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
             public void onSatelliteStatusChanged(GnssStatus status) {
                 super.onSatelliteStatusChanged(status);
                 int count = status.getSatelliteCount();
+                GPSStatusLabelView.setText(String.format("%d",count));
             }
         };
     }
