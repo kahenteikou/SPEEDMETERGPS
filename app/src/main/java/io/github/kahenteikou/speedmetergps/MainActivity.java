@@ -33,10 +33,15 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         GPSStatusLabelView=(TextView) findViewById(R.id.GPSStatusLabel);
         gnssCallback = new GnssStatus.Callback() {
             @Override
-            public void onSatelliteStatusChanged(GnssStatus status) {
+            public void onSatelliteStatusChanged(@NonNull GnssStatus status) {
                 super.onSatelliteStatusChanged(status);
-                int count = status.getSatelliteCount();
-                GPSStatusLabelView.setText(String.format("%d",count));
+                int usedInFixCount = 0;
+                for (int i = 0; i < status.getSatelliteCount(); i++) {
+                    if (status.usedInFix(i)) {
+                        usedInFixCount++;
+                    }
+                }
+                GPSStatusLabelView.setText(String.format("%d/%d",usedInFixCount,status.getSatelliteCount()));
             }
         };
     }
