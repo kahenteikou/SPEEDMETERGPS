@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     private LocationManager locationManager;
     private GnssStatus.Callback gnssCallback;
     private TextView txView;
+    private TextView GPSStatusLabelView;
     private ProgressBar barkun;
     private float speedkun=0.0f;
     @Override
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
         txView=(TextView) findViewById(R.id.SpeedTextView);
         barkun=(ProgressBar) findViewById(R.id.progressBar);
+        GPSStatusLabelView=(TextView) findViewById(R.id.GPSStatusLabel);
         gnssCallback = new GnssStatus.Callback() {
             @Override
             public void onSatelliteStatusChanged(GnssStatus status) {
