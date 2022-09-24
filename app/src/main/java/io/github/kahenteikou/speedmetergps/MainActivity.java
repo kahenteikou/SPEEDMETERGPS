@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
                         usedInFixCount++;
                     }
                 }
-                GPSStatusLabelView.setText(String.format("GPS:%d/%d",usedInFixCount,status.getSatelliteCount()));
+                GPSStatusLabelView.setText(String.format("GPS:%02d/%02d",usedInFixCount,status.getSatelliteCount()));
             }
         };
     }
