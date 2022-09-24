@@ -14,6 +14,8 @@ import android.os.Bundle;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements LocationListener {
@@ -22,6 +24,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     private TextView txView;
     private TextView GPSStatusLabelView;
     private ProgressBar barkun;
+    private TextView AccView;
     private float speedkun=0.0f;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +32,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         setContentView(R.layout.activity_main);
         locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
         txView=(TextView) findViewById(R.id.SpeedTextView);
+        AccView=(TextView)findViewById(R.id.ACCURACYVIEW);
         barkun=(ProgressBar) findViewById(R.id.progressBar);
         GPSStatusLabelView=(TextView) findViewById(R.id.GPSStatusLabel);
         gnssCallback = new GnssStatus.Callback() {
@@ -74,6 +78,12 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         }
         txView.setText(String.format("%5.1f",speedkun).replace(" ","!"));
         barkun.setProgress((int)(speedkun*100.0f));
+        if(location.hasAccuracy()) {
+            AccView.setText(String.format("ACCURACY:%03dM", location.getAccuracy()));
+        }else{
+            AccView.setText("ACCURACY:NONE");
+        }
+
     }
 
     @Override
