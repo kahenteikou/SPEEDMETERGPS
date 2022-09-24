@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     protected void onPause() {
         super.onPause();
         locationManager.removeUpdates(this);
+        locationManager.unregisterGnssStatusCallback(gnssCallback);
     }
 
     @Override
@@ -52,6 +53,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
             ActivityCompat.requestPermissions(this,new String[]{Manifest.permission.ACCESS_FINE_LOCATION},1);
             return;
         }
+        locationManager.registerGnssStatusCallback(gnssCallback);
         locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER,0,0,this);
     }
 
