@@ -15,7 +15,7 @@
         android:fontFamily="@font/dseg14classic_regular"
         android:text="~~~:~~~~~"
         android:textColor="#2D00CCFF"
-        android:textSize="20sp"
+        android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/progressBar" />
@@ -28,7 +28,7 @@
         android:fontFamily="@font/dseg14classic_regular"
         android:text="GPS:NO/NE"
         android:textColor="#00CCFF"
-        android:textSize="20sp"
+        android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/progressBar" />
