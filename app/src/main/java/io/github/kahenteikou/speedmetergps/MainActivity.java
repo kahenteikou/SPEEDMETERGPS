@@ -6,6 +6,7 @@ import androidx.core.app.ActivityCompat;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
+import android.location.GnssStatus;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
@@ -17,6 +18,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements LocationListener {
     private LocationManager locationManager;
+    private GnssStatus.Callback gnssCallback;
     private TextView txView;
     private ProgressBar barkun;
     private float speedkun=0.0f;
