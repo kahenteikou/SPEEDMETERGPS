@@ -64,14 +64,14 @@
         android:layout_height="80dp"
         android:fontFamily="@font/dseg7classic_regular"
         android:text="888.8"
-        android:textColor="#1999CC00"
+        android:textColor="#2708FF00"
         android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.304"  />
+        app:layout_constraintVertical_bias="0.304" />
 
     <TextView
         android:id="@+id/SpeedTextView"
@@ -79,7 +79,7 @@
         android:layout_height="80dp"
         android:fontFamily="@font/dseg7classic_regular"
         android:text="\u0021\u00210.0"
-        android:textColor="#62FF00"
+        android:textColor="#08FF00"
         android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
